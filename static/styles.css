@@ -1,0 +1,43 @@
+body {
+    background-color: #000000; 
+    color: #00ff41; 
+    font-family: 'Courier New', monospace; 
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+}
+
+button {
+    background-color: #1a1a1a; 
+    color: #00ff41; 
+    border: 1px solid #00ff41; 
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+button:hover {
+    background-color: #00ff41; 
+    color: #0f0f0f;
+}
+
+p#idea {
+    font-size: 1.5em;
+    padding: 20px;
+    border: 1px solid #00ff41; 
+    display: none; 
+    min-width: 300px; 
+    margin-top: 20px;
+}
+
+img {
+    width: 150px; 
+    height: auto;
+}
